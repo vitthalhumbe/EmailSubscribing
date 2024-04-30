@@ -59,3 +59,27 @@ span {
     margin-top: 10px;
     display: block;
 }
+
+@media only screen and (min-width:420px) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(background-phone.jpg);
+    }
+
+    .hero h3 {
+        margin-top: 20%;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    form {
+        background: white;
+        display: flex;
+        width: 100%;
+    }
+
+}
