@@ -60,7 +60,7 @@ span {
     display: block;
 }
 
-@media only screen and (max-width:520px) {
+@media only screen and (max-width:480px) {
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(background-phone.jpg);
     }
